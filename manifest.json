@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Duplicate Tab Closer",
+  "version": "1.0",
+  "description": "Finds and closes duplicate tabs, keeping the last one open.",
+  "permissions": [
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "close_duplicate_tabs.png"
+    }
+  },
+  "icons": {
+    "48": "close_duplicate_tabs.png",
+    "128": "close_duplicate_tabs.png"
+  }
+}

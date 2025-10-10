@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Duplicate Tab Closer</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      width: 200px;
+      padding: 10px;
+      text-align: center;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: white;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    #status {
+        margin-top: 10px;
+        font-size: 12px;
+        min-height: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <h3>Duplicate Tab Closer</h3>
+  <div id="status">Scanning for duplicates...</div>
+  <script src="popup.js"></script>
+</body>
+</html>
