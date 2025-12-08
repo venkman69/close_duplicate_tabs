@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Duplicate Tab Closer",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Finds and closes duplicate tabs, keeping the last one open.",
   "permissions": [
     "tabs"
