@@ -30,6 +30,10 @@ async function findAndCloseDuplicates() {
         // Keep the last tab, and add the rest to the list of tabs to close
         tabsToClose.push(...tabIds.slice(0, -1));
       }
+      // if tab url contains 'zoom' close all of them
+      if (tabIds[0].url.includes('zoom')) {
+        tabsToClose.push(...tabIds);
+      }
     }
 
     // Close the identified tabs in a single operation
