@@ -10,7 +10,7 @@ async function findAndCloseDuplicates() {
     try{
     // Group tabs by URL
     for (const tab of tabs) {
-      if (!tab.url || tab.url === 'about:blank' || tab.url === 'chrome://newtab/' || tab.url.includes('zoom')) {
+      if (!tab.url || tab.url === 'about:blank' || tab.url === 'chrome://newtab/' || tab.url.includes('zoom') || tab.url.includes('teams.microsoft.com')) {
         // Tabs without urls are special pages, close them
         empty_or_zoom_tabs.push(tab.id);
         continue;
